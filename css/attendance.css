@@ -1,0 +1,16 @@
+#date_picker{
+display: flex;
+margin: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    margin-left: 20px;
+}
+form button{
+    margin-left: 10px;
+}
+#statistics button{
+margin-top: 10px;
+}
+
