@@ -49,4 +49,4 @@ We welcome all kinds of contributions! Here’s how you can get started:
 ### 🧾 Add a Feature or Fix a Bug
 
 - Fork this repo
-- Clone your fork:
+- Clone your fork
