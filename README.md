@@ -50,5 +50,3 @@ We welcome all kinds of contributions! Here’s how you can get started:
 
 - Fork this repo
 - Clone your fork:
-  ```bash
-  git clone https://github.com/your-username/repo-name.git
