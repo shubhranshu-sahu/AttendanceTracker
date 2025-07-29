@@ -51,10 +51,9 @@ We welcome all kinds of contributions! Here's how to get started:
 3. Once assigned, fork and clone the repo
 4. Make your changes and submit a pull request (PR)
 
-
 ### 🧾 Add a Feature or Fix a Bug
-```bash
 
+```bash
 # Fork the repository
 git clone https://github.com/your-username/AttendanceTracker.git
 cd AttendanceTracker
@@ -68,17 +67,10 @@ git commit -m "Add: your feature or fix description"
 git push origin feature/your-feature-name
 
 
----
-
-
 ## 🙌 Acknowledgements
+This project is developed and maintained as part of GirlScript Summer of Code 2025 (GSSoC’25).
 
-This project is developed and maintained as part of **GirlScript Summer of Code 2025 (GSSoC’25)**.
-
-Made with ❤️ by [@sachiikrish](https://github.com/sachiikrish) and an awesome community of open-source contributors.
-
----
+Made with ❤️ by @sachiikrish and an awesome community of open-source contributors.
 
 ## 📄 License
-
-This project is licensed under the **MIT License**.  
+This project is licensed under the MIT License. 
