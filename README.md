@@ -54,6 +54,7 @@ We welcome all kinds of contributions! Here's how to get started:
 
 ### 🧾 Add a Feature or Fix a Bug
 ```bash
+
 # Fork the repository
 git clone https://github.com/your-username/AttendanceTracker.git
 cd AttendanceTracker
@@ -70,13 +71,14 @@ git push origin feature/your-feature-name
 ---
 
 
+## 🙌 Acknowledgements
 
-#🙌 Acknowledgements
+This project is developed and maintained as part of **GirlScript Summer of Code 2025 (GSSoC’25)**.
 
-This project is developed and maintained as part of GirlScript Summer of Code 2025 (GSSoC’25).
+Made with ❤️ by [@sachiikrish](https://github.com/sachiikrish) and an awesome community of open-source contributors.
 
-Made with ❤️ by @sachiikrish and an awesome community of open-source contributors.
+---
 
-#📄 License
+## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.  
