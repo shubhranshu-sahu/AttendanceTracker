@@ -65,12 +65,16 @@ git checkout -b feature/your-feature-name
 git add .
 git commit -m "Add: your feature or fix description"
 git push origin feature/your-feature-name
+```
 
+---
 
 ## 🙌 Acknowledgements
 This project is developed and maintained as part of GirlScript Summer of Code 2025 (GSSoC’25).
 
 Made with ❤️ by @sachiikrish and an awesome community of open-source contributors.
+
+---
 
 ## 📄 License
 This project is licensed under the MIT License. 
