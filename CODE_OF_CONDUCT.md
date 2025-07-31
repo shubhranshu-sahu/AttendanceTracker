@@ -35,10 +35,12 @@ The following actions are considered violations of this Code of Conduct:
 
 ## 🙋 Reporting & Enforcement
 
-If you experience or witness any violations of this Code of Conduct:
+If you witness or experience behavior that violates this Code of Conduct:
 
-📧 **Report via email**: `sachiikrish@gmail.com`  
-🔒 All reports will be handled confidentially and investigated promptly by the project maintainers.
+📫 **Please report directly to the project maintainer**: [@sachiikrish](https://github.com/sachiikrish)  
+🔒 All reports will be handled **confidentially**, and appropriate action will be taken by the maintainer.
+
+---
 
 ### ⚖️ Possible Enforcement Actions
 
@@ -57,6 +59,7 @@ This Code of Conduct applies to all:
 - GitHub project spaces (issues, PRs, discussions, code reviews)  
 - Official communication platforms (Discord, email, etc.)  
 - Any interaction related to the Attendance App project, online or offline
+- Website: [krishrk.rf.gd/attendance](http://krishrk.rf.gd/attendance/)
 
 ---
 
