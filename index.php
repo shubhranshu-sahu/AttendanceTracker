@@ -125,12 +125,12 @@ if (isset($_SESSION['admin_id'])) {
                     type="password"
                     name="password"
                     placeholder="Enter password"
-                    class="password-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    class="password-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-white-400 dark:text-white"
                     required
                   />
 
                   <svg
-                    class="toggle-password absolute right-3 top-3 cursor-pointer w-5 h-5 text-gray-500"
+                    class="toggle-password absolute right-3 top-3 cursor-pointer w-5 h-5 text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="none"
@@ -236,12 +236,12 @@ if (isset($_SESSION['admin_id'])) {
                     type="password"
                     name="password"
                     placeholder="Enter password"
-                    class="password-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    class="password-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-white-400 dark:text-white"
                     required
                   />
 
                   <svg
-                    class="toggle-password absolute right-3 top-3 cursor-pointer w-5 h-5 text-gray-500"
+                    class="toggle-password absolute right-3 top-3 cursor-pointer w-5 h-5 text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="none"
@@ -362,12 +362,12 @@ if (isset($_SESSION['admin_id'])) {
                     type="password"
                     name="password"
                     placeholder="Enter password"
-                    class="password-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    class="password-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-white-400 dark:text-white"
                     required
                   />
 
                   <svg
-                    class="toggle-password absolute right-3 top-3 cursor-pointer w-5 h-5 text-gray-500"
+                    class="toggle-password absolute right-3 top-3 cursor-pointer w-5 h-5 text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="none"
@@ -397,12 +397,12 @@ if (isset($_SESSION['admin_id'])) {
                     type="password"
                     name="password"
                     placeholder="Enter password"
-                    class="password-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                    class="password-input bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-white-400 dark:text-white"
                     required
                   />
 
                   <svg
-                    class="toggle-password absolute right-3 top-3 cursor-pointer w-5 h-5 text-gray-500"
+                    class="toggle-password absolute right-3 top-3 cursor-pointer w-5 h-5 text-white"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="none"
