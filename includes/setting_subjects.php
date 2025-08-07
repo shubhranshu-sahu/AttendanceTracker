@@ -12,13 +12,16 @@ $user_id = $_SESSION['user_id'];
 $subjects = [];
 $classes = [];
 
-for ($i = 1; $i <= 5; $i++) {
-    $subject_name = $_POST["subject_$i"];
-    $classes_count = $_POST["classes_$i"];
+// Handle dynamic subject count using the subjects array
+if (isset($_POST['subjects']) && is_array($_POST['subjects'])) {
+    foreach ($_POST['subjects'] as $subject) {
+        $subject_name = $subject['name'];
+        $classes_count = $subject['classes'];
 
-    if (!empty($subject_name) && !empty($classes_count)) {
-        $subjects[] = $subject_name;
-        $classes[] = $classes_count;
+        if (!empty($subject_name) && !empty($classes_count)) {
+            $subjects[] = $subject_name;
+            $classes[] = $classes_count;
+        }
     }
 }
 
