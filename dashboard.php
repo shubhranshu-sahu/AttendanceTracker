@@ -47,7 +47,7 @@ if($row_count==0){
     $sql_2 = "SELECT * FROM classes where user_id = '$user_id'";
     $result_2 = mysqli_query($conn, $sql_2);
     $count = mysqli_num_rows($result_2);
-    if($count == 5){
+    if($count > 0){
 ?>
  <div id="chart" class="mt-10 w-1/2">
     <?php
@@ -179,7 +179,8 @@ mysqli_close($conn);
             <div class="p-8 pb-4">
                 <form id="subject_form" class="space-y-6" action="includes/setting_subjects.php" method="post">
                     <div id="subject-fields-container" class="space-y-4 max-h-80 overflow-y-auto pr-2 custom-scrollbar">
-                        </div>
+                        <!-- Subject fields will be dynamically added here -->
+                    </div>
 
                     <button type="button" id="add-subject-btn" class="w-full border border-amber-500 text-amber-600 hover:bg-amber-50 focus:ring-4 focus:outline-none focus:ring-amber-200 font-semibold rounded-lg text-md px-5 py-2.5 text-center dark:border-amber-400 dark:text-amber-400 dark:hover:bg-gray-800 transition transform hover:scale-105 duration-300 ease-in-out flex items-center justify-center gap-2">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -229,28 +230,38 @@ mysqli_close($conn);
                 // Add event listener for the new remove button
                 div.querySelector('.remove-subject-btn').addEventListener('click', function() {
                     div.remove();
+                    updateFormValidation();
                 });
             }
 
-            // Add initial subject field
-            // You can modify this to preload existing subjects from your PHP `subjects` array if needed
-            // For example:
-            // <?php if (!empty($subjects)) { ?>
-            //     <?php foreach ($subjects as $s) { ?>
-            //         createSubjectField('<?= $s['subject_name'] ?>', '<?= $s['total_classes'] ?>'); // Assuming 'total_classes' is the column name
-            //     <?php } ?>
-            // <?php } else { ?>
-            //     createSubjectField(); // Add one empty field if no subjects exist
-            // <?php } ?>
-            // For now, let's just add one empty field to start if the container is empty.
+            // Make sure there's at least one subject field at all times
+            function updateFormValidation() {
+                // If there are no fields, add one automatically
+                if (subjectContainer.children.length === 0) {
+                    createSubjectField();
+                    alert("At least one subject is required.");
+                }
+            }
+
+            // Add initial subject field if none exists
             if (subjectContainer.children.length === 0) {
-                 createSubjectField(); // Start with one field
+                createSubjectField(); // Start with one field
             }
            
-
             // Event listener for "Add New Subject" button
             addSubjectBtn.addEventListener('click', function() {
                 createSubjectField();
+                // Scroll to the bottom of the container to show the new field
+                subjectContainer.scrollTop = subjectContainer.scrollHeight;
+            });
+
+            // Form submission validation
+            document.getElementById('subject_form').addEventListener('submit', function(e) {
+                if (subjectContainer.children.length === 0) {
+                    e.preventDefault();
+                    alert("Please add at least one subject before saving.");
+                    createSubjectField();
+                }
             });
         });
     </script>

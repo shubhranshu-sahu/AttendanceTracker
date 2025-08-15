@@ -4,7 +4,7 @@ require "../includes/database_connect.php";
 $name = $_POST['name'];
 $email = $_POST['email'];
 $password = $_POST['password'];
-$re_password = $_POST['Re-password'];
+$re_password = $_POST['confirm-password'];
 if($password != $re_password){
 echo json_encode(array("success"=> false, "message"=> "Password not matched!"));
 exit;
